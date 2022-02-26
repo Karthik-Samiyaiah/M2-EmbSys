@@ -15,13 +15,18 @@
 
 ## HARDWARE REQUIREMENTS
 -- Atmega Microcontroller
-Rain Drop Sensor                 Diodes
-Servo Motor                      LED
-Crystal Oscillator               Transformer
-Resistors                        Push buttons 
-Capacitors                       Switch                          
-Transistors                      IC
-
+Rain Drop Sensor               
+Servo Motor                    
+Crystal Oscillator             
+Resistors                        
+Capacitors                                      
+Transistors                      
+Diodes
+LED
+Transformer/Adapter
+Push Buttons
+Switch
+IC
 
 ## High Level Requirements:
 -- ID | Description |
