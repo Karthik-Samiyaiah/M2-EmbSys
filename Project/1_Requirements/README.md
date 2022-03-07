@@ -9,9 +9,40 @@
 -- This is an automatic wiper system that turns on automatically when it rains and stops when it stops raining. We will use a servomotor, rain sensor Arduino, and LCD module to control the wiper system. Whenever it rains, the rain sensor detects the intensity of the rain and sends that information to the Arduino. The information collected by the rain sensor is processed by Arduino and the processed information is sent to the servo motor to perform the desired action. The rain sensor consists of digital-to-analog output pins that calculate the intensity of the rain. The information sent to the microcontroller controls the speed of the wiper and is based on the intensity of the rain. The LCD shows the intensity of precipitation. 
 
 
-## BLOCK DIAGRAM
---   ![wiper](https://user-images.githubusercontent.com/99133249/155835355-eb0a6445-fae6-4e4d-8a89-654f7c0a57eb.jpg)
+## SWOT ANALYSIS
+**Strength**
+-- Automatically turns on wipers in cars when it rains.
 
+**Weakness**
+-- In order to avoid false detection of rain, it requires rain sensors to take decision after few minutes.
+
+**Opportunity**
+-- used in Autonomous vechicles.
+
+**Threats**
+-- TBD
+
+# 4W&#39;s and 1&#39;H
+
+## Who:
+
+**Drivers can use automatic rain sensing wipers in their cars.**
+
+## What:
+
+**Automatic Rain sensing car wipers is mainly concerned to help drivers.**
+
+## When:
+
+**Automatic rain sensing wipers are in useful during rainfall.**
+
+## Where:
+
+**User can fix this wiper in car windshield.**
+
+## How:
+
+**Implementation is done using Arduino,Rain sensor and servo motors.**
 
 ## HARDWARE REQUIREMENTS
 * Atmega Microcontroller
@@ -27,6 +58,10 @@
 * Push Buttons
 * Switch
 * IC
+
+## SOFTWARE REQUIREMENTS
+* Arduino compiler
+* Proteus software
 
 ## High Level Requirements:
 -- ID | Description |
