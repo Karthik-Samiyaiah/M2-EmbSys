@@ -1,0 +1,32 @@
+//rain monitoring..................................
+
+#include<LiquidCrystal.h>
+LiquidCrystal lcd(13,12,11,10,9,8);
+
+const int rain = A0;
+const int motor = 7;
+
+void setup() 
+{
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  lcd.begin(16,2);
+
+  pinMode(rain,INPUT);
+  pinMode(motor,OUTPUT);
+  
+  digitalWrite(motor,LOW);
+  
+  lcd.setCursor(0,0);lcd.print("SMART RAIN");
+  lcd.setCursor(0,1);lcd.print("SENSING");
+  delay(1000);
+  lcd.clear();
+
+}
+
+void loop() 
+{ 
+   if(digitalRead(rain) == LOW){lcd.setCursor(0,0);lcd.print("RAIN DETECTED...   ");lcd.setCursor(0,1);lcd.print("MOTOR ON ");digitalWrite(motor,HIGH);}
+   else{lcd.setCursor(0,0);lcd.print("RAIN NOT DETECTED    ");lcd.setCursor(0,1);lcd.print("MOTOR OFF");digitalWrite(motor,LOW);}   
+   delay(1000);
+}
