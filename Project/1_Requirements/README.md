@@ -75,3 +75,13 @@ HLR3| Wiper stops automatically when the rain stops|
 ----- | ------------|
 LLR1| User can see the wiper status in lcd display |
  
+## SENSOR
+## Rain Sensor
+-- A rain sensor is a device used to detect raindrops. These are electrically separated and can be used as printed circuit boards. The function of the rain sensor can be properly compared with the function of the switch. 
+
+## ACTUATOR
+## Servo Motor
+-- A servomotor (or servo motor) is a rotary actuator or linear actuator that allows for precise control of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for position feedback.
+
+## ARDUINO
+-- The Arduino Uno is also a microcontroller board supported the ATmega328.it's fourteen digital input/output pins six analog inputs, a sixteen megacycle oscillator, a USB association, an influence jack, associate degree ICSP header, and a push button.
